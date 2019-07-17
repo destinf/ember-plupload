@@ -28,13 +28,13 @@ module.exports = {
       app.import('vendor/plupload/plupload.full.min.js');
     }
 
-    app.import('vendor/plupload/Moxie.swf', {
+    app.import('vendor/plupload/js/Moxie.swf', {
       destDir: 'assets'
     });
-    app.import('vendor/plupload/Moxie.xap', {
+    app.import('vendor/plupload/js/Moxie.xap', {
       destDir: 'assets'
     });
-    app.import('vendor/dinosheets/dinosheets.amd.js', {
+    app.import('vendor/dinosheets/dist/dinosheets.amd.js', {
       exports: {
         'dinosheets': ['default']
       }
