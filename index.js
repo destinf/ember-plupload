@@ -61,6 +61,6 @@ module.exports = {
       trees.push(browserTrees);
     }
 
-    return new Merge(trees);
+    return new Merge(trees, { overwrite: true });
   }
 };
